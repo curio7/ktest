@@ -1,4 +1,4 @@
-{
+[{
 	"items":
 		{
 			"item":
@@ -32,4 +32,49 @@
 
 				]
 		}
+},
+ {
+  "id": 1,
+  "chkObj": [
+    {
+      "data": true,
+      "value": "check box no.1"
+    },
+    {
+      "data": true,
+      "value": "check box no.2"
+    },
+    {
+      "data": false,
+      "value": "check box no.3"
+    }
+  ],
+  "inputBox": {
+    "data": "",
+    "value": "",
+    "content": ""
+  },
+  "radioOptions": [
+    {
+      "id": 31,
+      "option-a": "Select one",
+      "data": "true"
+    },
+    {
+      "id": 32,
+      "option-a": "Select 2",
+      "data": "false"
+    },
+    {
+      "id": 33,
+      "option-a": "Select three",
+      "data": "false"
+    },
+    {
+      "id": 34,
+      "option-a": "Select None",
+      "data": "false"
+    }
+  ]
 }
+]
