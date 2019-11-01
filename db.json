@@ -1,80 +1,108 @@
-[{
-	"items":
-		{
-			"item":
-				[
-					{
-						"id": "0001",
-						"type": "donut",
-						"name": "Cake",
-						"ppu": 0.55,
-						"batters":
-							{
-								"batter":
-									[
-										{ "id": "1001", "type": "Regular" },
-										{ "id": "1002", "type": "Chocolate" },
-										{ "id": "1003", "type": "Blueberry" },
-										{ "id": "1004", "type": "Devil's Food" }
-									]
-							},
-						"topping":
-							[
-								{ "id": "5001", "type": "None" },
-								{ "id": "5002", "type": "Glazed" },
-								{ "id": "5005", "type": "Sugar" },
-								{ "id": "5007", "type": "Powdered Sugar" },
-								{ "id": "5006", "type": "Chocolate with Sprinkles" },
-								{ "id": "5003", "type": "Chocolate" },
-								{ "id": "5004", "type": "Maple" }
-							]
-					}
-
-				]
-		}
-},
- {
-  "id": 1,
-  "chkObj": [
-    {
-      "data": true,
-      "value": "check box no.1"
-    },
-    {
-      "data": true,
-      "value": "check box no.2"
-    },
-    {
-      "data": false,
-      "value": "check box no.3"
+[
+  {
+    "items": {
+      "item": [
+        {
+          "id": "0001",
+          "type": "donut",
+          "name": "Cake",
+          "ppu": 0.55,
+          "batters": {
+            "batter": [
+              {
+                "id": "1001",
+                "type": "Regular"
+              },
+              {
+                "id": "1002",
+                "type": "Chocolate"
+              },
+              {
+                "id": "1003",
+                "type": "Blueberry"
+              },
+              {
+                "id": "1004",
+                "type": "Devil's Food"
+              }
+            ]
+          },
+          "topping": [
+            {
+              "id": "5001",
+              "type": "None"
+            },
+            {
+              "id": "5002",
+              "type": "Glazed"
+            },
+            {
+              "id": "5005",
+              "type": "Sugar"
+            },
+            {
+              "id": "5007",
+              "type": "Powdered Sugar"
+            },
+            {
+              "id": "5006",
+              "type": "Chocolate with Sprinkles"
+            },
+            {
+              "id": "5003",
+              "type": "Chocolate"
+            },
+            {
+              "id": "5004",
+              "type": "Maple"
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "inputBox": {
-    "data": "",
-    "value": "",
-    "content": ""
   },
-  "radioOptions": [
-    {
-      "id": 31,
-      "option-a": "Select one",
-      "data": "true"
+  {
+    "id": 1,
+    "chkObj": [
+      {
+        "data": true,
+        "value": "check box no.1"
+      },
+      {
+        "data": true,
+        "value": "check box no.2"
+      },
+      {
+        "data": false,
+        "value": "check box no.3"
+      }
+    ],
+    "inputBox": {
+      "data": "",
+      "value": "",
+      "content": ""
     },
-    {
-      "id": 32,
-      "option-a": "Select 2",
-      "data": "false"
-    },
-    {
-      "id": 33,
-      "option-a": "Select three",
-      "data": "false"
-    },
-    {
-      "id": 34,
-      "option-a": "Select None",
-      "data": "false"
-    }
-  ]
-}
+    "radioOptions": [
+      {
+        "id": 31,
+        "option-a": "Select one",
+        "data": "true"
+      },
+      {
+        "id": 32,
+        "option-a": "Select 2",
+        "data": "false"
+      },
+      {
+        "id": 33,
+        "option-a": "Select three",
+        "data": "false"
+      },
+      {
+        "id": 34,
+        "option-a": "Select None",
+        "data": "false"
+      }
+    ]
+  }
 ]
